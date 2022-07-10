@@ -1,5 +1,6 @@
 # Fourier-Transform
-Visualize the fourier transform result
+* Visualize and analyze the fourier transform result.
+* Final project
 
 ### Introduction
 
@@ -25,9 +26,6 @@ Visualize the fourier transform result
 <p align="center">
 <image src="https://user-images.githubusercontent.com/63782903/178134447-04ee0eb7-9d92-4fac-8e15-51f91a8db4b2.png" width=50%/>
 
-### Function
-
-* DFT
 
 ### Results
 
