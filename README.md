@@ -6,12 +6,12 @@ Visualize the fourier transform result
 * 用 Python 實現傅立葉正(逆)轉換，並可視化結果。
 * 傅立葉轉換目的 :了解原始訊號是由哪些頻率的cos,sin組成，將時域訊號轉換成頻域訊號觀看 (不同角度觀看數據)。
   1. 濾波處理 : 當時域訊號非常雜亂複雜時，可以先進行正轉換取得頻域訊號，並針對感興趣的部分篩選，例如: 留下分量大的訊號，將分量小的頻號排除，再進行反轉換為時域訊號。
+  <p align="center">
+<image SRC="https://user-images.githubusercontent.com/63782903/178134956-92ebace4-87ab-49cf-95be-2b5e27294c23.png" width=50%/>
 * 每個訊號都是sin, cos以不同頻率組成，因此FT轉換目的是要得知訊號由哪些頻率的sin, cos組成。
 * FT轉換後，大致上會得到實部 (cos) 跟虛部 (sin)，因此做圖因該分為實部與虛部來畫。
 * 如果signal裡面只含有cos訊號，則得到的FT頻域應當只含有實部，這也是在積分項evev(cos)*odd(sin)會為0的原因。
 
-<p align="center">
-<image SRC="https://user-images.githubusercontent.com/63782903/178134956-92ebace4-87ab-49cf-95be-2b5e27294c23.png" width=50%/>
 
 ### Method
 
